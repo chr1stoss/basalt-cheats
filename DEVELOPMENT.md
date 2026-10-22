@@ -48,5 +48,4 @@ WordPress и PHP-оболочка Basalt сосуществуют на одно�
 
 ### Локализация
 
-Ключи в `site/lang/ru.php` и `site/lang/en.php` с префиксом `practice_wp1.*` ...
-`practice_wp5.*` + `nav.practice_wp1` ... `nav.practice_wp5`.
+Ключи в `site/lang/ru.php` и `site/lang/en.php`

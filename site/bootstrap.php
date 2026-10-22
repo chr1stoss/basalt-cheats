@@ -7,6 +7,13 @@ const COMPONENTS_PATH = ROOT_PATH . '/components';
 const CONFIG_PATH = ROOT_PATH . '/config';
 const LANG_PATH = ROOT_PATH . '/lang';
 
+const INC_PATH = ROOT_PATH . '/inc';
+
+const EDU_PATH = ROOT_PATH . '/education';
+const DISC_PATH = EDU_PATH . '/practices-disc';
+const DISC_LEGACY_PATH = EDU_PATH . '/practices-disc-legacy';
+const INTERFACE_PATH = EDU_PATH . '/practices-interfaces';
+
 if (session_status() !== PHP_SESSION_ACTIVE) {
     session_start();
 }
@@ -195,6 +202,11 @@ function fix_db_hrefs(string $html): string
         $html = str_replace('href="' . $p . '"', 'href="' . h(asset($p)) . '"', $html);
     }
     return $html;
+}
+
+function route_games(): string
+{
+    return asset('games.php');
 }
 
 function nav_active_id(): string

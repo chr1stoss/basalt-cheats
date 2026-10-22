@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Портфолио | 1337</title>
+    <script>
+        const person = {
+            surname: '???',
+            name: 'chr1stoss',
+            patronymic: '???',
+            occupation: 'legend',
+            degree: 'any',
+            education: 'paradise',
+            qualification: 'god',
+            specialty: 'any',
+            discipline: ['JavaScript', 'React']
+        };
+
+        person.category = prompt('Категория:', 'god') || '—';
+        person.experience = prompt('Стаж:', '2026 лет') || '—';
+        person.email = prompt('E-mail:', 'example@mail.ru') || '—';
+        person.site = prompt('Портфолио:', 'https://example.com') || '#';
+
+        const infoHTML = `
+      <h1>${person.surname} ${person.name} ${person.patronymic}</h1>
+      <h2>${person.occupation}</h2>
+      <hr class="info__hr">
+      <h3>Основная информация:</h3>
+      <ul class="info__list">
+        <li><span class="info__item">Уровень образования: </span>${person.degree}</li>
+        <li><span class="info__item">Образование: </span>${person.education}</li>
+        <li><span class="info__item">Квалификация: </span>${person.qualification}</li>
+        <li><span class="info__item">Специализация: </span>${person.specialty}</li>
+        <li>
+          <span class="info__item">Ключевые навыки:</span>
+          <ul>${person.discipline.map(s => `<li>${s}</li>`).join('')}</ul>
+        </li>
+      </ul>
+      <h3>Дополнительная информация:</h3>
+      <ul class="info__list">
+        <li><span class="info__item">Категория: </span>${person.category}</li>
+        <li><span class="info__item">Стаж: </span>${person.experience}</li>
+        <li><span class="info__item">E-mail: </span><a href="mailto:${person.email}">${person.email}</a></li>
+        <li><span class="info__item">Портфолио: </span><a href="${person.site}" target="_blank" rel="noopener">${person.site}</a></li>
+      </ul>
+    `;
+
+        document.addEventListener('DOMContentLoaded', () => {
+            document.querySelector('.info').innerHTML = infoHTML;
+        });
+    </script>
+</head>
+<body>
+<header class="header">
+    <nav class="header__nav">
+        <ul class="header__list">
+            <li class="header__item"><a href="#" class="header__link">Обо мне</a></li>
+            <li class="header__item"><a href="#" class="header__link">Проекты</a></li>
+            <li class="header__item"><a href="#" class="header__link">Навыки</a></li>
+            <li class="header__item"><a href="#" class="header__link">Контакты</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="container">
+    <section class="foto">
+        <img src="img/no-image.png" class="foto_pic" alt="Фото">
+    </section>
+    <section class="info"></section>
+</main>
+
+<footer class="footer">
+    <nav class="footer__nav">
+        <ul class="footer__list">
+            <li class="footer__item"><a href="#" class="footer__link">Обо мне</a></li>
+            <li class="footer__item"><a href="#" class="footer__link">Проекты</a></li>
+            <li class="footer__item"><a href="#" class="footer__link">Навыки</a></li>
+            <li class="footer__item"><a href="#" class="footer__link">Контакты</a></li>
+        </ul>
+    </nav>
+    <div class="footer__info">Портфолио веб-разработчика. Все права защищены. 2026</div>
+</footer>
+</body>
+</html>
