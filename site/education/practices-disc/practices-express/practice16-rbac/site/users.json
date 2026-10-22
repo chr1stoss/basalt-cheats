@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1790861991268,
+    "username": "chr1stoss",
+    "password": "$2a$10$YaUULDYye0ROmXfIoQXCyOO/BKszJ17YwE0pT/t8hEZAitnMRhTsa",
+    "role": "admin"
+  },
+  {
+    "id": 1790862020299,
+    "username": "user",
+    "password": "$2a$10$y6r9gH7uXtts/HwcVGCxne/lp1hAPvfeljnm1J.tYoGAn/nGePDvq",
+    "role": "user"
+  }
+]

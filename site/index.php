@@ -102,7 +102,7 @@ if ($osCardsRes) {
                     <strong><?= $isEn ? 'All top games' : 'Все топовые игры' ?></strong><span><?= $isEn ? 'Support' : 'Поддержка' ?></span>
                 </div>
                 <div class="stats-loop-item">
-                    <strong>wh1sper</strong><span><?= $isEn ? 'Author' : 'Автор' ?></span>
+                    <strong>chr1stoss</strong><span><?= $isEn ? 'Author' : 'Автор' ?></span>
                 </div>
             </div>
         </div>

@@ -196,6 +196,11 @@ function fix_db_hrefs(string $html): string
     return $html;
 }
 
+function route_games(): string
+{
+    return asset('games.php');
+}
+
 function nav_active_id(): string
 {
     if (isset($GLOBALS['navActive']) && is_string($GLOBALS['navActive']) && $GLOBALS['navActive'] !== '') {
