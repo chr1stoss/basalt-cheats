@@ -1,0 +1,31 @@
+/* custom-theme.css — переопределение токенов Bootstrap 5 для Positivus */
+:root {
+    --bs-primary: #b9ff66;
+    --bs-primary-rgb: 185, 255, 102;
+    --bs-dark: #191a23;
+    --bs-dark-rgb: 25, 26, 35;
+    --bs-secondary: #f3f3f3;
+    --bs-secondary-rgb: 243, 243, 243;
+    --bs-body-font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    --bs-body-color: #191a23;
+    --bs-body-bg: #ffffff;
+    --bs-border-color: #191a23;
+    --bs-border-radius-xl: 40px;
+    --bs-border-radius: 14px;
+    --bs-border-radius-lg: 24px;
+    --bs-link-color: #191a23;
+    --bs-link-hover-color: #40414a;
+    --bs-focus-ring-color: rgba(185, 255, 102, .55);
+}
+
+.btn-primary {
+    --bs-btn-bg: var(--bs-primary);
+    --bs-btn-color: var(--bs-dark);
+    --bs-btn-border-color: var(--bs-dark);
+    --bs-btn-hover-bg: #a3ed4e;
+    --bs-btn-hover-color: var(--bs-dark);
+    --bs-btn-hover-border-color: var(--bs-dark);
+    --bs-btn-active-bg: #94da43;
+    --bs-btn-active-color: var(--bs-dark);
+    --bs-btn-active-border-color: var(--bs-dark);
+}

@@ -113,12 +113,79 @@ $bodyClass = trim((string) ($bodyClass ?? ''));
             <div class="nav-expand-panel">
                 <div class="nav-expand-panel-inner">
                     <nav class="nav-secondary" id="nav-secondary" aria-label="<?= h(__('nav.more')) ?>">
-                        <div class="drawer-grid nav-secondary-links">
-                            <a href="<?= h(asset('gallery.php')) ?>"><?= h(__('nav.gallery')) ?></a>
-                            <a href="<?= h(asset('team.php')) ?>"><?= h(__('nav.team')) ?></a>
-                            <a href="<?= h(asset('regions.php')) ?>"><?= h(__('nav.regions')) ?></a>
-                            <a href="<?= h(asset('operations.php')) ?>"><?= h(__('nav.operations')) ?></a>
-                            <a href="<?= h(asset('history.php')) ?>"><?= h(__('nav.history')) ?></a>
+                        <div class="nav-groups-wrapper">
+                            <div class="nav-group">
+                                <div class="nav-group-header">
+                                    <span class="nav-group-title"><?= h(__('nav.group_additional')) ?></span>
+                                </div>
+                                <div class="drawer-grid nav-secondary-links">
+                                    <a href="<?= h(asset('gallery.php')) ?>"><?= h(__('nav.gallery')) ?></a>
+                                    <a href="<?= h(asset('team.php')) ?>"><?= h(__('nav.team')) ?></a>
+                                    <a href="<?= h(asset('regions.php')) ?>"><?= h(__('nav.regions')) ?></a>
+                                    <a href="<?= h(asset('operations.php')) ?>"><?= h(__('nav.operations')) ?></a>
+                                    <a href="<?= h(asset('history.php')) ?>"><?= h(__('nav.history')) ?></a>
+                                    <a href="<?= h(asset('index-db-blocks.php')) ?>"><?= h(__('nav.indexdb')) ?></a>
+                                </div>
+                            </div>
+                            <div class="nav-group">
+                                <div class="nav-group-header">
+                                    <span class="nav-group-title"><?= h(__('nav.group_legacy')) ?></span>
+                                </div>
+                                <div class="drawer-grid nav-secondary-links">
+                                    <a href="<?= h(asset('education/practices-disc-legacy/practice8-iframe/practice-solution.php')) ?>"><?= h(__('nav.practice8_iframe')) ?></a>
+                                    <a href="<?= h(asset('education/practices-disc-legacy/practice10-sweetty/part-1/practice-connector.php')) ?>"><?= h(__('nav.practice10_sweetty_p1')) ?></a>
+                                    <a href="<?= h(asset('education/practices-disc-legacy/practice10-sweetty/part-2/practice-connector.php')) ?>"><?= h(__('nav.practice10_sweetty_p2')) ?></a>
+                                    <a href="<?= h(asset('education/practices-disc-legacy/practice11-victory/part-1/practice-connector.php')) ?>"><?= h(__('nav.practice11_victory_p1')) ?></a>
+                                    <a href="<?= h(asset('education/practices-disc-legacy/practice11-victory/part-2/practice-connector.php')) ?>"><?= h(__('nav.practice11_victory_p2')) ?></a>
+                                    <a href="<?= h(asset('education/practices-disc-legacy/practice12-async/practice-connector.php')) ?>"><?= h(__('nav.practice12_async')) ?></a>
+                                    <a href="<?= h(asset('education/practices-disc-legacy/practice13-music/practice-connector.php')) ?>"><?= h(__('nav.practice13_music')) ?></a>
+                                    <a href="<?= h(asset('validation-lab.php')) ?>"><?= h(__('nav.validation')) ?></a>
+                                    <a href="<?= h(asset('runtime-demo.php')) ?>"><?= h(__('nav.runtime')) ?></a>
+                                    <a href="<?= h(asset('support-console.php')) ?>"><?= h(__('nav.console')) ?></a>
+                                </div>
+                            </div>
+                            <div class="nav-group">
+                                <div class="nav-group-header">
+                                    <span class="nav-group-title"><?= h(__('nav.group_express')) ?></span>
+                                </div>
+                                <div class="drawer-grid nav-secondary-links">
+                                    <a href="<?= h(asset('education/practices-disc/practices-express/practice14-requests/practice-connector.php')) ?>"><?= h(__('nav.practice14_requests')) ?></a>
+                                    <a href="<?= h(asset('education/practices-disc/practices-express/practice15-auth/practice-connector.php')) ?>"><?= h(__('nav.practice15_auth')) ?></a>
+                                    <a href="<?= h(asset('education/practices-disc/practices-express/practice16-rbac/practice-connector.php')) ?>"><?= h(__('nav.practice16_rbac')) ?></a>
+                                    <a href="<?= h(asset('education/practices-disc/practices-express/practice18-gateways/practice-connector.php')) ?>"><?= h(__('nav.practice18_gateways')) ?></a>
+                                </div>
+                            </div>
+                            <div class="nav-group">
+                                <div class="nav-group-header">
+                                    <span class="nav-group-title"><?= h(__('nav.group_portfolio')) ?></span>
+                                </div>
+                                <div class="drawer-grid nav-secondary-links">
+                                    <a href="<?= h(asset('education/practices-disc/practices-none-sort/practice17-portfolio/practice-connector.php')) ?>"><?= h(__('nav.practice17_portfolio')) ?></a>
+                                </div>
+                            </div>
+                            <div class="nav-group">
+                                <div class="nav-group-header">
+                                    <span class="nav-group-title"><?= h(__('nav.group_wordpress')) ?></span>
+                                </div>
+                                <div class="drawer-grid nav-secondary-links">
+                                    <a href="<?= h(asset('education/practices-interfaces/practices-wordpress/practice-wp1.php')) ?>"><?= h(__('nav.practice_wp1')) ?></a>
+                                    <a href="<?= h(asset('education/practices-interfaces/practices-wordpress/practice-wp2.php')) ?>"><?= h(__('nav.practice_wp2')) ?></a>
+                                    <a href="<?= h(asset('education/practices-interfaces/practices-wordpress/practice-wp3.php')) ?>"><?= h(__('nav.practice_wp3')) ?></a>
+                                    <a href="<?= h(asset('education/practices-interfaces/practices-wordpress/practice-wp4.php')) ?>"><?= h(__('nav.practice_wp4')) ?></a>
+                                    <a href="<?= h(asset('education/practices-interfaces/practices-wordpress/practice-wp5.php')) ?>"><?= h(__('nav.practice_wp5')) ?></a>
+                                </div>
+                            </div>
+                            <div class="nav-group">
+                                <div class="nav-group-header">
+                                    <span class="nav-group-title"><?= h(__('nav.group_layouts')) ?></span>
+                                </div>
+                                <div class="drawer-grid nav-secondary-links">
+                                    <a href="<?= h(asset('education/practices-interfaces/practices-layout/practice6-landing/part-1/practice-connector.php')) ?>"><?= h(__('nav.practice6_landing_p1')) ?></a>
+                                    <a href="<?= h(asset('education/practices-interfaces/practices-layout/practice6-landing/part-2/practice-connector.php')) ?>"><?= h(__('nav.practice6_landing_p2')) ?></a>
+                                    <a href="<?= h(asset('education/practices-interfaces/practices-layout/practice7-landing-layout/practice-connector.php')) ?>"><?= h(__('nav.practice7_landing_layout')) ?></a>
+                                    <a href="<?= h(asset('education/practices-interfaces/practices-layout/practice8-landing-positivus/practice-connector.php')) ?>"><?= h(__('nav.practice8_landing_positivus')) ?></a>
+                                </div>
+                            </div>
                         </div>
                     </nav>
                 </div>

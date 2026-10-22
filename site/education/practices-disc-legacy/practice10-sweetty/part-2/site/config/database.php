@@ -7,5 +7,5 @@ return [
     'port' => (int) (getenv('DB_PORT') ?: 3306),
     'user' => getenv('DB_USER') ?: 'root',
     'pass' => getenv('DB_PASSWORD') !== false ? (string) getenv('DB_PASSWORD') : '',
-    'name' => getenv('DB_PRACTICE_NAME') ?: 'basalt_practice10',
+    'name' => getenv('DB_SWEETTY_NAME') ?: 'db_sweetty',
 ];
