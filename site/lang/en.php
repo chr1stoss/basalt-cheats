@@ -53,10 +53,14 @@ return [
     'nav.practice16_rbac' => 'PR16 RBAC',
     'nav.practice17_portfolio' => 'PR17 Portfolio',
     'nav.practice18_gateways' => 'PR18 Gateways',
+    'nav.practice19_checkout' => 'PR19 Checkouts',
+    'nav.practice20_random' => 'PR20 Random',
 
     'practice16_rbac.lead' => 'Node.js + Express: admin/user roles, requireAdmin middleware, admin panel, safe deletion.',
     'practice17_portfolio.lead' => 'Portfolio about yourself creating using stack PHP/CSS/JS',
     'practice18_gateways.lead' => 'JavaScript: object, template literals, prompt, dynamic DOM output.',
+    'practice19_checkout.lead' => 'JavaScript: checkouts.',
+    'practice20_random.lead' => 'JavaScript: random the wonder of the world showing.',
 
     // wordpress
     'nav.practice_wp1' => 'PR1 WordPress',

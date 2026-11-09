@@ -53,10 +53,14 @@ return [
     'nav.practice16_rbac' => 'ПР16 RBAC',
     'nav.practice17_portfolio' => 'ПР17 Портфолио',
     'nav.practice18_gateways' => 'ПР18 Узлы',
+    'nav.practice19_checkout' => 'PR19 Чеки',
+    'nav.practice20_random' => 'PR20 Рандом',
 
     'practice16_rbac.lead' => 'Node.js + Express: роли admin/user, middleware requireAdmin, админ-панель и безопасное удаление.',
     'practice17_portfolio.lead' => 'Создание портфолио о себе, используя стек HTML/CSS/JS',
     'practice18_gateways.lead' => 'JavaScript: объект, шаблонные литералы, prompt, динамический вывод в DOM.',
+    'practice19_checkout.lead' => 'JavaScript: чеки.',
+    'practice20_random.lead' => 'JavaScript: рандомный показ чуда света.',
 
     // wordpress
     'nav.practice_wp1' => 'ПР WP1 WordPress',

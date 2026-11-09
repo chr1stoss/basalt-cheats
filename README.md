@@ -42,6 +42,8 @@
 - ПР16: `site/education/practices-disc/practices-express/practice16-rbac/site/*`
 - ПР17: `site/education/practices-disc/practices-none-sort/practice17-portfolio/site/*`
 - ПР18: `site/education/practices-disc/practices-express/practice18-gateways/site/*`
+- ПР19: `site/education/practices-disc/practices-express/practice19-checkouts/site/*`
+- ПР20: `site/education/practices-disc/practices-express/practice20-random/site/*`
 
 - WP1: `site/education/practices-interfaces/practices-wordpress/practice-wp1.php`
 - WP2: `site/education/practices-interfaces/practices-wordpress/practice-wp2.php`

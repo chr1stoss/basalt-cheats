@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ru">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Программирование в среде JavaScript</title>
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+	<div id="wrapper">
+		<h1 class="title">Семь чудес света</h1>
+
+		<p>Во все века люди гордились и бережно охраняли достижения своих цивилизаций. Память об этих достижениях дошла
+			и до наших дней, став достоянием всемирной истории. Семь чудес света – это классический список выдающихся
+			творений рук человеческих.</p>
+		<p>Интересен факт, что он был хорошо известен еще до нашей эры. В древних школах детей обучали разным наукам, и
+			знание 7 чудес света было обязательным.</p>
+		<p>В данной статье мы предоставим вам не только список 7 чудес света, но и сделаем краткое описание каждого из
+			них.</p>
+
+		<h2>Список 7 чудес света</h2>
+
+		<!-- Блок для вывода списка ссылок -->
+		<ol id="wonders-list"></ol>
+
+		<!-- Блок для вывода случайного чуда света -->
+		<div id="wonder-content"></div>
+	</div>
+
+	<!-- Подключение файла с данными -->
+	<script src="assets/js/seven-wonders.js"></script>
+
+	<script>
+		// Случайным образом выбираем одно чудо света
+		const randomIndex = Math.floor(Math.random() * sevenWonders.length);
+		const wonder = sevenWonders[randomIndex];
+
+		// Формируем HTML для изображений
+		const imagesHTML = wonder.images.map(image => `
+			<img src="${image.src}" alt="${image.title}" title="${image.title}">
+		`).join('');
+
+		// Формируем основной контент страницы
+		const contentHTML = `
+			<h2>${wonder.name}</h2>
+			${imagesHTML}
+			<div class="description">
+				${wonder.description}
+			</div>
+		`;
+
+		// Вставляем контент в документ
+		document.getElementById('wonder-content').innerHTML = contentHTML;
+
+		// Формируем список ссылок на чудеса света
+		const listHTML = sevenWonders.map(item => `
+			<li>
+				<a href="${item.href}" target="_blank" rel="noopener">
+					${item.title}
+				</a>
+			</li>
+		`).join('');
+
+		// Вставляем список в документ
+		document.getElementById('wonders-list').innerHTML = listHTML;
+	</script>
+
+</body>
+</html>
