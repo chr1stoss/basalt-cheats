@@ -1,0 +1,110 @@
+[
+  {
+    "id": 1,
+    "name": "Пивкин · Настольная лампа «Тихий свет»",
+    "category": "Освещение",
+    "price": 3490,
+    "oldPrice": 4290,
+    "image": "assets/img/product-01.svg",
+    "description": "Тёплый свет и лаконичный силуэт для спокойного рабочего места."
+  },
+  {
+    "id": 2,
+    "name": "Кресло «Север»",
+    "category": "Мебель",
+    "price": 12990,
+    "oldPrice": 15990,
+    "image": "assets/img/product-02.svg",
+    "description": "Мягкая обивка, устойчивые ножки и удобная посадка."
+  },
+  {
+    "id": 3,
+    "name": "Ваза «Терра»",
+    "category": "Декор",
+    "price": 1890,
+    "oldPrice": 0,
+    "image": "assets/img/product-03.svg",
+    "description": "Матовая фактура и выразительная форма ручной работы."
+  },
+  {
+    "id": 4,
+    "name": "Часы «Момент»",
+    "category": "Декор",
+    "price": 2790,
+    "oldPrice": 3290,
+    "image": "assets/img/product-04.svg",
+    "description": "Чистый циферблат без лишних деталей."
+  },
+  {
+    "id": 5,
+    "name": "Кружка «Утро»",
+    "category": "Кухня",
+    "price": 790,
+    "oldPrice": 0,
+    "image": "assets/img/product-05.svg",
+    "description": "Керамика для кофе, чая и медленных выходных."
+  },
+  {
+    "id": 6,
+    "name": "Стеллаж «Линия»",
+    "category": "Мебель",
+    "price": 8990,
+    "oldPrice": 10990,
+    "image": "assets/img/product-06.svg",
+    "description": "Открытые полки для книг и любимых предметов."
+  },
+  {
+    "id": 7,
+    "name": "Сумка «Город»",
+    "category": "Аксессуары",
+    "price": 4590,
+    "oldPrice": 0,
+    "image": "assets/img/product-07.svg",
+    "description": "Вместительная модель для ежедневных маршрутов."
+  },
+  {
+    "id": 8,
+    "name": "Наушники «Фокус»",
+    "category": "Техника",
+    "price": 5990,
+    "oldPrice": 6990,
+    "image": "assets/img/product-08.svg",
+    "description": "Комфортная посадка и выразительное звучание."
+  },
+  {
+    "id": 9,
+    "name": "Зеркало «Овал»",
+    "category": "Декор",
+    "price": 3290,
+    "oldPrice": 0,
+    "image": "assets/img/product-09.svg",
+    "description": "Мягкая овальная форма визуально расширяет пространство."
+  },
+  {
+    "id": 10,
+    "name": "Кашпо «Рост»",
+    "category": "Декор",
+    "price": 1490,
+    "oldPrice": 1790,
+    "image": "assets/img/product-10.svg",
+    "description": "Нейтральный акцент для зелёных уголков."
+  },
+  {
+    "id": 11,
+    "name": "Торшер «Вечер»",
+    "category": "Освещение",
+    "price": 7490,
+    "oldPrice": 8990,
+    "image": "assets/img/product-11.svg",
+    "description": "Рассеянный свет для чтения и отдыха."
+  },
+  {
+    "id": 12,
+    "name": "Поднос «Форма»",
+    "category": "Кухня",
+    "price": 1190,
+    "oldPrice": 0,
+    "image": "assets/img/product-12.svg",
+    "description": "Универсальный предмет для сервировки и хранения мелочей."
+  }
+]

@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="ru" data-theme="light">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="KeebCraft — кастомные механические клавиатуры, свитчи и аксессуары.">
+    <title>KeebCraft — собери свой звук</title>
+    <link rel="stylesheet" href="assets/css/variables.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/app.js" defer></script>
+</head>
+<body>
+<div class="announcement"><span>Звук, к которому привыкаешь</span><span>Бесплатная доставка от 12 000 ₽ ↗</span></div>
+<header class="site-header">
+    <a class="brand" href="#top" aria-label="KeebCraft — главная"><span class="brand-mark">K<span>C</span></span><span
+            class="brand-name">keebcraft<small>MADE FOR YOUR FINGERTIPS</small></span></a>
+    <nav class="main-nav" aria-label="Основная навигация"><a class="is-active" href="#catalog">Каталог</a><a
+            href="#story">О мастерской</a><a href="#guide">Гид по свитчам</a></nav>
+    <div class="header-actions">
+        <label class="search-box">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+                <circle cx="10.8" cy="10.8" r="6.8"></circle>
+                <path d="m16 16 4.5 4.5"></path>
+            </svg>
+            <input id="search-input" type="search" placeholder="Найти клавиатуру…"
+                   aria-label="Поиск по каталогу"></label>
+        <button type="button" id="theme-toggle" class="icon-btn" aria-label="Переключить тему" title="Сменить тему">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+                <circle cx="12" cy="12" r="4"></circle>
+                <path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"></path>
+            </svg>
+        </button>
+        <button type="button" id="cart-open" class="cart-btn" aria-label="Корзина">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M3 4h2l2.2 11.1a2 2 0 0 0 2 1.6h8.6a2 2 0 0 0 1.9-1.4L22 8H6"></path>
+                <circle cx="10" cy="20" r="1"></circle>
+                <circle cx="18" cy="20" r="1"></circle>
+            </svg>
+            <span>Корзина</span><b id="cart-count">0</b></button>
+        <button type="button" id="filters-open" class="mobile-filter-btn" aria-controls="filters-panel"
+                aria-expanded="false">Фильтры <span>↓</span></button>
+    </div>
+</header>
+<main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-content"><p class="eyebrow"><span class="eyebrow-dot"></span> SMALL BATCH / BIG FEELING</p>
+            <h1 id="hero-title">Печатаешь.<br><em>Чувствуешь.</em></h1>
+            <p class="hero-copy">Механические клавиатуры, собранные с вниманием к каждой детали. Подбери свой формат,
+                характер и звук.</p>
+            <div class="hero-actions"><a class="btn btn-dark" href="#catalog">Смотреть коллекцию <span>↘</span></a><a
+                    class="text-link" href="#guide">Как выбрать свитчи <span>↗</span></a></div>
+            <div class="hero-stats">
+                <div><strong>12<span>+</span></strong><small>вариантов сборки</small></div>
+                <div><strong>3<span>×</span></strong><small>уровня кастомизации</small></div>
+                <div><strong>100<span>%</span></strong><small>внимания к деталям</small></div>
+            </div>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+            <div class="art-orbit orbit-one"></div>
+            <div class="art-orbit orbit-two"></div>
+            <div class="hero-label label-top"><span>KC / 075</span><span>HOT-SWAP</span></div>
+            <div class="hero-keyboard">
+                <div class="keyboard-top"><span>KEEBCRAFT</span><span>◌</span></div>
+                <div class="keyboard-keys"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+                </div>
+                <div class="keyboard-bottom"><span>GASKET MOUNT</span><span>75%</span></div>
+            </div>
+            <span class="floating-tag tag-left">Tactile / 45g</span><span class="floating-tag tag-right">Designed to last.</span><span
+                class="art-cross cross-a">+</span><span class="art-cross cross-b">+</span>
+            <div class="art-stamp">CRAFTED<br>NOT MASS<br>PRODUCED<span>✳</span></div>
+        </div>
+    </section>
+    <section class="catalog-section" id="catalog">
+        <div class="section-heading">
+            <div><p class="eyebrow"><span class="eyebrow-dot"></span> THE COLLECTION</p>
+                <h2>Найди свой <em>ритм.</em></h2></div>
+            <p class="section-note">Каждая клавиша на своём месте.<br>Осталось выбрать твою.</p></div>
+        <div class="catalog-layout">
+            <div class="filter-overlay" id="filter-overlay" hidden></div>
+            <aside class="filters" id="filters-panel" aria-label="Фильтры товаров">
+                <div class="filter-head"><h3>Фильтры</h3>
+                    <button id="filters-close" class="close-filter" type="button" aria-label="Закрыть фильтры">×
+                    </button>
+                </div>
+                <div class="filter-group"><h4>Категория</h4><label class="check-row"><input type="checkbox"
+                                                                                            name="category"
+                                                                                            value="keyboards"
+                                                                                            checked><span
+                        class="custom-check"></span><span>Клавиатуры</span><small>08</small></label><label
+                        class="check-row"><input type="checkbox" name="category" value="switches" checked><span
+                        class="custom-check"></span><span>Свитчи</span><small>03</small></label><label
+                        class="check-row"><input type="checkbox" name="category" value="accessories" checked><span
+                        class="custom-check"></span><span>Аксессуары</span><small>03</small></label></div>
+                <div class="filter-group"><h4>Формат</h4><label class="check-row"><input type="checkbox" name="layout"
+                                                                                         value="60"><span
+                        class="custom-check"></span><span>60–65%</span></label><label class="check-row"><input
+                        type="checkbox" name="layout" value="75"><span
+                        class="custom-check"></span><span>75%</span></label><label class="check-row"><input
+                        type="checkbox" name="layout" value="tkl"><span
+                        class="custom-check"></span><span>TKL / Full</span></label></div>
+                <div class="filter-group price-group">
+                    <div class="filter-title-row"><h4>Цена до</h4>
+                        <output id="price-output">30 000 ₽</output>
+                    </div>
+                    <input type="range" min="2000" max="30000" step="1000" value="30000" id="price-range"
+                           aria-label="Максимальная цена"></div>
+                <button type="button" id="clear-filters" class="clear-filters">Сбросить фильтры <span>↺</span></button>
+                <p class="filter-footnote">Каждая сборка проверяется вручную перед отправкой.</p>
+            </aside>
+            <div class="products-area">
+                <div class="catalog-toolbar"><span id="results-count">12 предметов</span><label class="sort-control">Сортировка
+                    <select id="sort-select" aria-label="Сортировка каталога">
+                        <option value="featured">Сначала выбранное</option>
+                        <option value="price-asc">Сначала дешевле</option>
+                        <option value="price-desc">Сначала дороже</option>
+                        <option value="name">По названию</option>
+                    </select></label></div>
+                <div class="product-grid" id="product-grid" aria-live="polite"></div>
+                <div id="empty-state" class="empty-state" hidden><span>⌕</span>
+                    <h3>Ничего не найдено</h3>
+                    <p>Попробуй изменить поиск или снять часть фильтров.</p>
+                    <button type="button" id="empty-reset" class="btn btn-dark">Сбросить фильтры</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="story-band" id="story">
+        <div class="story-mark">KC<span>✳</span></div>
+        <div><p class="eyebrow">BUILT WITH INTENTION</p>
+            <h2>Не просто клавиатура.<br><em>Твой рабочий инструмент.</em></h2></div>
+        <p>От подбора корпуса до смазки стабилизаторов — мы собираем устройства, которыми хочется пользоваться каждый
+            день.</p><a href="#guide" class="story-arrow" aria-label="Перейти к гиду по свитчам">↗</a></section>
+    <section class="guide-section" id="guide">
+        <div><p class="eyebrow"><span class="eyebrow-dot"></span> QUICK GUIDE</p>
+            <h2>Три характера.<br><em>Один выбор.</em></h2></div>
+        <div class="switch-cards">
+            <article><span class="switch-icon linear">↘</span>
+                <h3>Linear</h3>
+                <p>Плавный ход без тактильного бугорка. Для быстрых нажатий и тихого рабочего ритма.</p><span
+                        class="switch-sample">01 / SMOOTH</span></article>
+            <article><span class="switch-icon tactile">⌁</span>
+                <h3>Tactile</h3>
+                <p>Чёткий отклик в середине нажатия. Тактильное подтверждение каждого движения.</p><span
+                        class="switch-sample">02 / FEEDBACK</span></article>
+            <article><span class="switch-icon clicky">⌁</span>
+                <h3>Clicky</h3>
+                <p>Заметный клик и звонкий характер. Для тех, кто любит слышать свою работу.</p><span
+                        class="switch-sample">03 / CLICK</span></article>
+        </div>
+    </section>
+</main>
+<footer class="site-footer"><a class="brand brand-footer" href="#top"><span
+        class="brand-mark">K<span>C</span></span><span
+        class="brand-name">keebcraft<small>MADE FOR YOUR FINGERTIPS</small></span></a><span>Сделано с вниманием к каждой клавише.</span><span>© KEEBCRAFT / 2026</span>
+</footer>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<dialog id="cart-dialog" class="cart-dialog">
+    <form method="dialog">
+        <button class="dialog-close" aria-label="Закрыть">×</button>
+        <p class="eyebrow">YOUR SETUP</p>
+        <h2>Корзина</h2>
+        <div id="cart-items" class="cart-items"></div>
+        <div class="cart-total"><span>Итого</span><strong id="cart-total">0 ₽</strong></div>
+        <button class="btn btn-dark full" value="close">Продолжить покупки</button>
+    </form>
+</dialog>
+</body>
+</html>

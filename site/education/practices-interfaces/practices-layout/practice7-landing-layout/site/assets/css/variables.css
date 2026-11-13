@@ -1,0 +1,17 @@
+:root {
+    color-scheme: light;
+    --paper: #f3f1ec;
+    --white: #fffefa;
+    --ink: #202321;
+    --muted: #767a73;
+    --line: #d7d7ce;
+    --accent: #d8fb62;
+    --dark: #252a25;
+    --font-body: 'DM Sans', Arial, sans-serif;
+    --font-display: 'Manrope', 'DM Sans', Arial, sans-serif;
+    --container: 1320px;
+    --gutter: clamp(20px, 5.4vw, 84px);
+    --ease: cubic-bezier(.2, .7, .15, 1);
+    --radius: 2px;
+    --shadow: 0 22px 70px rgba(22, 28, 19, .11)
+}

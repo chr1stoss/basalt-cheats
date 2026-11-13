@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#101820">
+    <meta name="description" content="Динамическая галерея городов мира, созданная с помощью DOM и клонирования узлов.">
+    <title>Самые красивые города мира — практика 18</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="assets/js/data.js" defer></script>
+    <script src="assets/js/cards.js" defer></script>
+</head>
+<body>
+<header class="site-head">
+    <div class="head-inner">
+        <p class="eyebrow">DOM / ПРАКТИЧЕСКАЯ РАБОТА №18</p>
+        <h1>Самые красивые <span>города мира</span></h1>
+        <p class="head-lead">Шесть историй о местах, в которые хочется возвращаться.</p>
+        <div class="head-meta"><span class="live-dot"></span><span id="city-count">Подготавливаем галерею…</span><span
+                class="meta-separator">/</span><span>Создание элементов DOM</span></div>
+    </div>
+</header>
+<main class="content">
+    <section class="intro" aria-label="О галерее">
+        <div><span class="section-kicker">THE CITY EDIT</span>
+            <h2>Мир в деталях</h2></div>
+        <p>Карточки создаются программно из массива данных. Первый блок служит шаблоном, остальные получают структуру
+            через <code>cloneNode(true)</code>.</p>
+    </section>
+    <section class="row" aria-label="Галерея городов" aria-live="polite">
+        <noscript><p class="message">Для создания галереи включите JavaScript.</p></noscript>
+    </section>
+    <p class="source-note"><span class="note-line"></span> ШЕСТЬ ГОРОДОВ · ОДИН МАССИВ ДАННЫХ · НИКАКОГО
+        insertAdjacentHTML</p>
+</main>
+<footer class="site-foot"><span>DOM LAB / 18</span><span>chr1stoss</span></footer>
+</body>
+</html>

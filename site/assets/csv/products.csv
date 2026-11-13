@@ -1,0 +1,9 @@
+Type,SKU,Name,Published,Is featured?,Visibility in catalog,Short description,Description,In stock?,Stock,Low stock amount,Backorders allowed?,Regular price,Sale price,Categories,Tags,Images,External URL,Button text,Attribute 1 name,Attribute 1 value(s),Attribute 1 visible,Attribute 1 global,Parent,Grouped products
+simple,SKEET-001,Skeet (CS2),1,1,visible,"Приватный чит для CS2","Skeet — один из старейших приватных читов. Стабильный апдейт, HWID-спуфер в комплекте.",1,15,2,0,3500,,"Читы","CS2","","","","","","","","",""
+variable,NL-001,Neverlose (CS2),1,1,visible,"Мультичит Neverlose","Гибкая подписка: месяц, три месяца или Lifetime.",1,,,0,,,"Читы","CS2","","","","Срок подписки","1 месяц | 3 месяца | Lifetime",1,0,,""
+variation,NL-001-1M,Neverlose (CS2) — 1 месяц,1,0,visible,,,,1,15,,0,2000,,"","","","","","Срок подписки","1 месяц",1,0,NL-001,
+variation,NL-001-3M,Neverlose (CS2) — 3 месяца,1,0,visible,,,,1,10,,0,5000,,"","","","","","Срок подписки","3 месяца",1,0,NL-001,
+variation,NL-001-LT,Neverlose (CS2) — Lifetime,1,0,visible,,,,1,5,,0,12000,,"","","","","","Срок подписки","Lifetime",1,0,NL-001,
+simple,FAT-001,Fatality (CS2),1,0,visible,"Приватный чит Fatality","Fatality — легитный чит с фокусом на низкий риск.",1,20,2,0,2800,,"Читы","CS2","","","","","","","","",""
+external,AW-001,Aimware (CS2),1,0,visible,"Партнёрский товар","Aimware — покупка напрямую на сайте вендора.",0,,,0,2200,,"Читы","CS2","","https://aimware.net/","Купить на Aimware","","","","","",""
+grouped,BUNDLE-CS2,"CS2 Комплект (Skeet + Neverlose)",1,0,visible,"Набор для CS2 со скидкой","Два приватных чита одним пакетом.",1,,,0,,,"Читы","CS2","","","","","","","","",,"SKEET-001, NL-001"

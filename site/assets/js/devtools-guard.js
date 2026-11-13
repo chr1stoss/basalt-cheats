@@ -1,3 +1,5 @@
+Del comments if u want to close access to devtools for users
+
 (() => {
   const DEVTOOLS_THRESHOLD = 160;
   const isRu = (document.documentElement.lang || "ru").toLowerCase().startsWith("ru");
