@@ -153,8 +153,9 @@ $bodyClass = trim((string) ($bodyClass ?? ''));
                                     <a href="<?= h(asset('education/practices-disc/practices-express/practice15-auth/practice-connector.php')) ?>"><?= h(__('nav.practice15_auth')) ?></a>
                                     <a href="<?= h(asset('education/practices-disc/practices-express/practice16-rbac/practice-connector.php')) ?>"><?= h(__('nav.practice16_rbac')) ?></a>
                                     <a href="<?= h(asset('education/practices-disc/practices-express/practice18-gateways/practice-connector.php')) ?>"><?= h(__('nav.practice18_gateways')) ?></a>
-				    <a href="<?= h(asset('education/practices-disc/practices-express/practice19-checkout/practice-connector.php')) ?>"><?= h(__('nav.practice19_checkouts')) ?></a>
+				    <a href="<?= h(asset('education/practices-disc/practices-express/practice19-checkouts/practice-connector.php')) ?>"><?= h(__('nav.practice19_checkouts')) ?></a>
 				    <a href="<?= h(asset('education/practices-disc/practices-express/practice20-random/practice-connector.php')) ?>"><?= h(__('nav.practice20_random')) ?></a>
+				    <a href="<?= h(asset('education/practices-disc/practices-express/practice21-news/practice-connector.php')) ?>"><?= h(__('nav.practice21_news')) ?></a>
                                 </div>
                             </div>
                             <div class="nav-group">
@@ -186,6 +187,8 @@ $bodyClass = trim((string) ($bodyClass ?? ''));
                                     <a href="<?= h(asset('education/practices-interfaces/practices-layout/practice6-landing/part-2/practice-connector.php')) ?>"><?= h(__('nav.practice6_landing_p2')) ?></a>
                                     <a href="<?= h(asset('education/practices-interfaces/practices-layout/practice7-landing-layout/practice-connector.php')) ?>"><?= h(__('nav.practice7_landing_layout')) ?></a>
                                     <a href="<?= h(asset('education/practices-interfaces/practices-layout/practice8-landing-positivus/practice-connector.php')) ?>"><?= h(__('nav.practice8_landing_positivus')) ?></a>
+                                    <a href="<?= h(asset('education/practices-interfaces/practices-layout/practice9-catalog/practice-connector.php')) ?>"><?= h(__('nav.practice9_catalog')) ?></a>
+                                    <a href="<?= h(asset('education/practices-interfaces/practices-layout/practice10-native-shop/practice-connector.php')) ?>"><?= h(__('nav.practice10_native_shop')) ?></a>
                                 </div>
                             </div>
                         </div>

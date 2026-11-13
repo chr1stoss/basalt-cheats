@@ -53,8 +53,9 @@ return [
     'nav.practice16_rbac' => 'ПР16 RBAC',
     'nav.practice17_portfolio' => 'ПР17 Портфолио',
     'nav.practice18_gateways' => 'ПР18 Узлы',
-    'nav.practice19_checkout' => 'PR19 Чеки',
-    'nav.practice20_random' => 'PR20 Рандом',
+    'nav.practice19_checkouts' => 'ПР19 Чеки',
+    'nav.practice20_random' => 'ПР20 Рандом',
+    'nav.practice21_news' => 'ПР21 Новости',
 
     'practice16_rbac.lead' => 'Node.js + Express: роли admin/user, middleware requireAdmin, админ-панель и безопасное удаление.',
     'practice17_portfolio.lead' => 'Создание портфолио о себе, используя стек HTML/CSS/JS',
@@ -105,10 +106,12 @@ return [
     'practice_wp5.btn_settings' => 'Настройки форумов',
 
     // layout
-    'nav.practice6_landing_p1' => 'PR6 Верстка (p1)',
-    'nav.practice6_landing_p2' => 'PR6 Реврок кинетики (p2)',
-    'nav.practice7_landing_layout' => 'PR7 Лендинг (Figma)',
-    'nav.practice8_landing_positivus' => 'PR8 Лендинг Позитивус',
+    'nav.practice6_landing_p1' => 'ПР6 Верстка (ч1)',
+    'nav.practice6_landing_p2' => 'ПР6 Реврок кинетики (ч2)',
+    'nav.practice7_landing_layout' => 'ПР7 Лендинг (Figma)',
+    'nav.practice8_landing_positivus' => 'ПР8 Лендинг Позитивус',
+    'nav.practice9_catalog' => 'ПР9 Каталог',
+    'nav.practice10_native_shop' => 'ПР10 Нативный Магазин',
 
     'lang.ru' => 'RU',
     'lang.en' => 'EN',

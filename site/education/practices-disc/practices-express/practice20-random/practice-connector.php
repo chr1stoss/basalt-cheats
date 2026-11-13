@@ -12,7 +12,7 @@ $breadcrumbs = [
     ['label' => $pageTitle, 'href' => null],
 ];
 
-$src = 'http://localhost:3000';
+$src = asset('education/practices-disc/practices-express/practice20-random/site/index.html');
 ?>
 <div class="container">
     <?php require COMPONENTS_PATH . '/breadcrumbs.php'; ?>
@@ -24,16 +24,7 @@ $src = 'http://localhost:3000';
                 ? 'JavaScript: random the wonder of the world showing'
                 : 'JavaScript: рандомный показ чуда света') ?>
         </p>
-        <div class="ws-divider" aria-hidden="true"><span>◇</span></div>
     </header>
-
-    <p class="muted" style="max-width:760px;margin:0 auto 14px;text-align:center;">
-        <?= $isEn
-            ? 'Express runs on port 3000, separately from PHP/XAMPP. Start it with:'
-            : 'Express запускается на порту 3000, отдельно от PHP/XAMPP. Запуск:' ?>
-        <code>cd site/practice20-express &amp;&amp; npm install &amp;&amp; npm start</code>.
-    </p>
-
     <div class="console-frame" style="height: 75vh;">
         <iframe title="practice20-express" src="<?= h($src) ?>" style="width:100%;height:100%;border:0;background:#0e0e0e;"></iframe>
     </div>

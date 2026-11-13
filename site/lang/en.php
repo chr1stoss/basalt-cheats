@@ -53,8 +53,9 @@ return [
     'nav.practice16_rbac' => 'PR16 RBAC',
     'nav.practice17_portfolio' => 'PR17 Portfolio',
     'nav.practice18_gateways' => 'PR18 Gateways',
-    'nav.practice19_checkout' => 'PR19 Checkouts',
+    'nav.practice19_checkouts' => 'PR19 Checkouts',
     'nav.practice20_random' => 'PR20 Random',
+    'nav.practice21_news' => 'PR21 News',
 
     'practice16_rbac.lead' => 'Node.js + Express: admin/user roles, requireAdmin middleware, admin panel, safe deletion.',
     'practice17_portfolio.lead' => 'Portfolio about yourself creating using stack PHP/CSS/JS',
@@ -109,6 +110,8 @@ return [
     'nav.practice6_landing_p2' => 'PR6 Rework kinetic (p2)',
     'nav.practice7_landing_layout' => 'PR7 Landing (Figma)',
     'nav.practice8_landing_positivus' => 'PR8 Landing Positivus',
+    'nav.practice9_catalog' => 'PR9 Catalog',
+    'nav.practice10_native_shop' => 'PR10 Native Shop',
 
     'lang.ru' => 'RU',
     'lang.en' => 'EN',
