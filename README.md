@@ -44,6 +44,7 @@
 - ПР18: `site/education/practices-disc/practices-express/practice18-gateways/site/*`
 - ПР19: `site/education/practices-disc/practices-express/practice19-checkouts/site/*`
 - ПР20: `site/education/practices-disc/practices-express/practice20-random/site/*`
+- ПР21: `site/education/practices-disc/practices-express/practice21-news/site/*`
 
 - WP1: `site/education/practices-interfaces/practices-wordpress/practice-wp1.php`
 - WP2: `site/education/practices-interfaces/practices-wordpress/practice-wp2.php`
@@ -54,6 +55,8 @@
 - ПР6: `site/education/practices-interfaces/practices-layout/practice6-landing/site/*`
 - ПР7: `site/education/practices-interfaces/practices-layout/practice7-landing-layout/site/*`
 - ПР8: `site/education/practices-interfaces/practices-layout/practice8-landing-positivus/site/*`
+- ПР9: `site/education/practices-interfaces/practices-layout/practice9-catalog/site/*`
+- ПР10: `site/education/practices-interfaces/practices-layout/practice10-native-shop/site/*`
 
 ```text
 Со средой Basalt Cheats решения практик совместимы благодаря файлам-коннекторам:
@@ -176,7 +179,15 @@ basalt-cheats/edu/
 │   └── education
 │       ├── practices-disc/                             # РКИС (3 курс)
 │       │   ├── practices-express/
+│       │   │   ├── practice14-requests/
+│       │   │   ├── practice15-auth/
+│       │   │   ├── practice16-rbac/
+│       │   │   ├── practice18-gateways/
+│       │   │   ├── practice19-checkouts/
+│       │   │   ├── practice20-random/
+│       │   │   └── practice21-news/
 │       │   └── practices-none-sort/                    # Портфолио
+│       │       └── practice18-portfolio/
 │       ├── practices-disc-legacy/                      # РКИС (2 курс)
 │       │   ├── practice8-iframe/
 │       │   ├── practice10-sweetty/
@@ -193,8 +204,10 @@ basalt-cheats/edu/
 │           │   │   ├── part-1/                         # Верстка
 │           │   │   └── part-2/                         # Добавление кинетики
 │           │   ├── practice7-landing-layout/      
-│           │   └── practice8-landing-positivus/        # ПиРИС (3 курс)
-│           └── practices-wordpress/                    # Wordpress 1-4
+│           │   ├── practice8-landing-positivus/        
+│           │   ├── practice9-catalog/        
+│           │   └── practice8-native-shop/        
+│           └── practices-wordpress/                    # Wordpress 1-5
 ├── wp_lab/
 │   └── wp-content/
 │       └── themes/
