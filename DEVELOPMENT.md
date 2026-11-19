@@ -7,7 +7,7 @@
 
 ## Визуал
 
-- Референс — сохраненный снимок WRONGCHEATS (`.mhtml` в родительской папке): `min-h-screen`, плавающие орбы, фиксированная шапка с pill-навигацией, hero в две колонки.
+- Основное: `min-h-screen`, плавающие орбы, фиксированная шапка с pill-навигацией, hero в две колонки.
 - Палитра **монохром** (ч/б, серые уровни), без цветного неона; акцент — белый/светло-серый и тени.
 - Анимации: `animations.css` (fade-in-up, float-orb), длительные `transition` на карточках и кнопках, выраженный `:hover` (подъем, тень, border).
 
@@ -32,8 +32,8 @@
 - БД: `wp_lab` — **не входит** в `site/database/FULL.sql`, создается вручную.
 - Дочерняя тема: `wp-content/themes/my-child-theme/` — в ней `style.css` и
   `functions.php` со всеми хуками WooCommerce и bbPress.
-- Обертки в проекте: `site/practice-wp1.php` … `site/practice-wp5.php` —
-  те же табы-панели, что в `practice13.php` (`btn btn-primary` / `btn btn-ghost`,
+- Обертки в проекте: `site/education/practices-interfaces/practices-wordpress/practice-wp1.php` … `practice-wp5.php` —
+  те же табы-панели, что в `.../practices-disc/practices-express/practiceN-<practice_name>/practice-connector.php` (`btn btn-primary` / `btn btn-ghost`,
   `role="tab"`, `data-wp-panel` / `data-wp-src`), но iframe ведет на
   `http://localhost/wp-lab/`.
 

@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Программирование в среде JavaScript</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <h1 align="center">Управляющие конструкции</h1>
+    </header>
+
+    <!-- Контейнер для вывода данных пользователя или ошибки -->
+    <div id="profile-container"></div>
+
+    <!-- Подключаем файл с данными -->
+    <script src="assets/js/personnel.js"></script>
+
+    <script>
+        let container = document.getElementById("profile-container");
+        let foundUser = null;
+
+        try {
+            // Извлекаем данные из window.name
+            let authDataStr = window.name;
+            
+            if (!authDataStr) {
+                throw new Error("Данные авторизации отсутствуют. Пожалуйста, вернитесь на главную страницу.");
+            }
+
+            let authData = JSON.parse(authDataStr);
+
+            // Используем цикл for для поиска пользователя
+            for (let i = 0; i < personnel.length; i++) {
+                if (personnel[i].authorization.login === authData.login && 
+                    personnel[i].authorization.password === authData.password) {
+                    foundUser = personnel[i];
+                    break; // Прерываем цикл, если пользователь найден
+                }
+            }
+
+            // Если пользователь найден, выводим данные
+            if (foundUser) {
+                let info = foundUser.info;
+                
+                let htmlContent = `
+                    <h2>Добро пожаловать в личный кабинет</h2>
+                    <h3>${info.surname} ${info.name} ${info.patronymic} (id = ${info.id_personnel})</h3>
+                    <img src="${info.img}" alt="${info.name}" class="profile-img">
+                    <p><strong>Должность:</strong> ${info.post}</p>
+                    <p><strong>Категория:</strong> ${info.category}</p>
+                    <p><strong>Уровень образования:</strong> ${info.level_edu}</p>
+                    <p><strong>Общий стаж работы:</strong> ${info.experience_total}</p>
+                    <p><strong>Стаж работы в колледже:</strong> ${info.experience_college}</p>
+                    <p><strong>Email:</strong> <a href="mailto:${info.email}">${info.email}</a></p>
+                    <p><strong>Служебное сообщение:</strong> <span class="success-message">Success</span></p>
+                `;
+                container.innerHTML = htmlContent;
+            } else {
+                // Если пользователь не найден, генерируем ошибку
+                throw new Error("Неверный логин и/или пароль");
+            }
+
+        } catch (error) {
+            // Вывод ошибки в консоль
+            console.error("Ошибка аутентификации пользователя");
+            console.error("Error: " + error.message);
+
+            // Вывод ошибки в браузер
+            container.innerHTML = `
+                <h2>Ошибка аутентификации пользователя</h2>
+                <p class="error-message">Служебное сообщение: Error: ${error.message}</p>
+            `;
+        }
+    </script>
+
+    <footer align="center">
+        <h3>Добро пожаловать</h3>
+        <a href="https://v1svaldis.dev" target="_blank">v1svaldis.dev</a>
+    </footer>	
+</body>
+</html>

@@ -56,6 +56,7 @@ return [
     'nav.practice19_checkouts' => 'PR19 Checkouts',
     'nav.practice20_random' => 'PR20 Random',
     'nav.practice21_news' => 'PR21 News',
+    'nav.practice22_user_profle' => 'PR22 User Profile',
 
     'practice16_rbac.lead' => 'Node.js + Express: admin/user roles, requireAdmin middleware, admin panel, safe deletion.',
     'practice17_portfolio.lead' => 'Portfolio about yourself creating using stack PHP/CSS/JS',

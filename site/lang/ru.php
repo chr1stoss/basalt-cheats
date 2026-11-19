@@ -56,6 +56,7 @@ return [
     'nav.practice19_checkouts' => 'ПР19 Чеки',
     'nav.practice20_random' => 'ПР20 Рандом',
     'nav.practice21_news' => 'ПР21 Новости',
+    'nav.practice22_user_profle' => 'PR22 Профиль Пользователя',
 
     'practice16_rbac.lead' => 'Node.js + Express: роли admin/user, middleware requireAdmin, админ-панель и безопасное удаление.',
     'practice17_portfolio.lead' => 'Создание портфолио о себе, используя стек HTML/CSS/JS',

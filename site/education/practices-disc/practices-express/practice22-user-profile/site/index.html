@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Программирование в среде JavaScript</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <h1 align="center">Управляющие конструкции</h1>
+    </header>
+    
+    <h2>Введите логин и пароль</h2>
+    
+    <a class="link" href="profile.html">Отправить</a>
+
+    <script>
+        // Запрашиваем логин и пароль
+        let login = prompt("Введите ваш логин:");
+        let password = prompt("Введите ваш пароль:");
+
+        // Проверяем, что пользователь не нажал "Отмена"
+        if (login !== null && password !== null) {
+            // Сохраняем данные в window.name в виде JSON-строки для удобства извлечения
+            let authData = {
+                login: login,
+                password: password
+            };
+            window.name = JSON.stringify(authData);
+        } else {
+            // Если данные не введены, сохраняем пустую строку или уведомляем
+            window.name = "";
+        }
+    </script>
+
+    <footer align="center">
+        <h3>Добро пожаловать!</h3>
+        <a href="https://v1svaldis.dev" target="_blank">ТЫК</a>
+    </footer>	
+</body>
+</html>

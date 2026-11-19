@@ -1,0 +1,52 @@
+h2 {
+    text-align: center;
+}
+
+a.link { 
+    display: block;
+    width: 20%;
+    margin: 20px auto;
+    text-decoration: none;
+    border: 2px solid black; 
+    border-radius: 30px;
+    color: black;
+    text-align: center; 
+    padding: 1%; 
+    margin-top: 2%; 
+    font-size: 1em;
+}
+
+a.link:hover {
+    background-color: lightgray;
+}
+
+/* Дополнительные стили для профиля */
+#profile-container {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.profile-img {
+    max-width: 200px;
+    display: block;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+.error-message {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.success-message {
+    color: green;
+    font-weight: bold;
+}

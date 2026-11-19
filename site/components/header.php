@@ -156,6 +156,7 @@ $bodyClass = trim((string) ($bodyClass ?? ''));
 				    <a href="<?= h(asset('education/practices-disc/practices-express/practice19-checkouts/practice-connector.php')) ?>"><?= h(__('nav.practice19_checkouts')) ?></a>
 				    <a href="<?= h(asset('education/practices-disc/practices-express/practice20-random/practice-connector.php')) ?>"><?= h(__('nav.practice20_random')) ?></a>
 				    <a href="<?= h(asset('education/practices-disc/practices-express/practice21-news/practice-connector.php')) ?>"><?= h(__('nav.practice21_news')) ?></a>
+				    <a href="<?= h(asset('education/practices-disc/practices-express/practice22-user-profile/practice-connector.php')) ?>"><?= h(__('nav.practice22_user_profile')) ?></a>
                                 </div>
                             </div>
                             <div class="nav-group">
