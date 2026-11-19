@@ -6,9 +6,9 @@ favicon_path: assets/img/components/favicon.ico
 tagline_ru: Приватные читы и модули
 tagline_en: Private cheats and modules
 default_lang: ru
-telegram_url: https://t.me/basalt_cheats
-telegram_handle: "@basalt_cheats"
-discord_url: https://discord.com/invite/basalt_cheats
+telegram_url: https://t.me/your_telegram
+telegram_handle: "@your_channel"
+discord_url: https://discord.com/invite/your_channel
 github_url: https://github.com/chr1stoss
 support_email: support@basalt.local
 payment_receiver: BASALT PAY — requisites on invoice

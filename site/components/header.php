@@ -105,23 +105,7 @@ $bodyClass = trim((string) ($bodyClass ?? ''));
                         <img src="<?= h(asset('assets/svg/account-icon.svg')) ?>" width="18" height="18" alt="">
                     </button>
                 <?php } ?>
-                <button type="button" class="nav-more" id="nav-more" aria-expanded="false" aria-controls="nav-secondary" title="<?= h(__('nav.more')) ?>">
-                    <img src="<?= h(asset('assets/svg/more-horizontal.svg')) ?>" width="18" height="18" alt="">
-                </button>
             </div>
-            </div>
-            <div class="nav-expand-panel">
-                <div class="nav-expand-panel-inner">
-                    <nav class="nav-secondary" id="nav-secondary" aria-label="<?= h(__('nav.more')) ?>">
-                        <div class="drawer-grid nav-secondary-links">
-                            <a href="<?= h(asset('gallery.php')) ?>"><?= h(__('nav.gallery')) ?></a>
-                            <a href="<?= h(asset('team.php')) ?>"><?= h(__('nav.team')) ?></a>
-                            <a href="<?= h(asset('regions.php')) ?>"><?= h(__('nav.regions')) ?></a>
-                            <a href="<?= h(asset('operations.php')) ?>"><?= h(__('nav.operations')) ?></a>
-                            <a href="<?= h(asset('history.php')) ?>"><?= h(__('nav.history')) ?></a>
-                        </div>
-                    </nav>
-                </div>
             </div>
         </div>
     </div>
