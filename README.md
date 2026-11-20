@@ -243,4 +243,4 @@ basalt-cheats/edu/
 
 ## License
 
-MIT LICENSE.
+PolyForm Noncommercial License 1.0.0 — см. `LICENSE`
