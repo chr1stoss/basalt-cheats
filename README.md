@@ -73,4 +73,4 @@ official/
 
 ## License
 
-MIT — см. `LICENSE`.
+PolyForm Noncommercial License 1.0.0 — см. `LICENSE`.
