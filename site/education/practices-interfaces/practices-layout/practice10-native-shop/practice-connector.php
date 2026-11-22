@@ -5,7 +5,7 @@ declare(strict_types=1);
 require dirname(__DIR__, 4) . '/bootstrap.php';
 
 $isEn = current_lang() === 'en';
-$pageTitle = $isEn ? 'Practice 9 — Native Shop' : 'Практика 10 — Нативный Магазин';
+$pageTitle = $isEn ? 'Practice 10 — Native Shop' : 'Практика 10 — Нативный Магазин';
 require COMPONENTS_PATH . '/header.php';
 
 $breadcrumbs = [

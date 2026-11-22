@@ -29,11 +29,13 @@ return [
 
     // grops
     'nav.group_additional' => 'Дополнительно',
-    'nav.group_legacy' => 'Старые',
-    'nav.group_express' => 'Node.js Express',
-    'nav.group_portfolio' => 'Портфолио',
-    'nav.group_wordpress' => 'Wordpress',
-    'nav.group_layouts' => 'Верстка',
+    'nav.group_legacy' => 'DISC | Старые',
+    'nav.group_express' => 'DISC | Node.js Express',
+    'nav.group_portfolio' => 'DISC | Портфолио',
+    'nav.group_javascript' => 'DISC | JavaScript',
+    'nav.group_wordpress' => 'INTERFACES | Wordpress',
+    'nav.group_layouts' => 'INTERFACES | Верстка',
+    'nav.group_node' => 'INTERFACES | Node.js Vue3',
 
     // legacy
     'nav.practice8_iframe' => 'ПР8 iframe',
@@ -56,7 +58,8 @@ return [
     'nav.practice19_checkouts' => 'ПР19 Чеки',
     'nav.practice20_random' => 'ПР20 Рандом',
     'nav.practice21_news' => 'ПР21 Новости',
-    'nav.practice22_user_profle' => 'PR22 Профиль Пользователя',
+    'nav.practice22_user_profile' => 'PR22 Профиль Пользователя',
+    'nav.practice23_local_storage' => 'PR23 localStorage',
 
     'practice16_rbac.lead' => 'Node.js + Express: роли admin/user, middleware requireAdmin, админ-панель и безопасное удаление.',
     'practice17_portfolio.lead' => 'Создание портфолио о себе, используя стек HTML/CSS/JS',
@@ -113,6 +116,7 @@ return [
     'nav.practice8_landing_positivus' => 'ПР8 Лендинг Позитивус',
     'nav.practice9_catalog' => 'ПР9 Каталог',
     'nav.practice10_native_shop' => 'ПР10 Нативный Магазин',
+    'nav.practice11_vue3_counter' => 'ПР11 Vue3 Счетчик',
 
     'lang.ru' => 'RU',
     'lang.en' => 'EN',

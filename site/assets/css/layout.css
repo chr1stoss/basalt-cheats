@@ -180,6 +180,36 @@
     box-shadow var(--nav-radius-dur) var(--nav-expand-ease) var(--nav-panel-delay);
 }
 
+/* Ограничиваем высоту раскрытого меню и включаем внутренний скролл */
+.nav-dock.is-expanded .nav-expand-panel-inner {
+    max-height: min(70vh, calc(100dvh - 140px));
+    overflow-y: auto;
+    overflow-x: hidden;
+    overscroll-behavior: contain;
+    scrollbar-gutter: stable;
+}
+
+/* WebKit-скроллбар */
+.nav-dock.is-expanded .nav-expand-panel-inner::-webkit-scrollbar {
+    width: 8px;
+}
+
+.nav-dock.is-expanded .nav-expand-panel-inner::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.nav-dock.is-expanded .nav-expand-panel-inner::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.18);
+    border-radius: 999px;
+    border: 2px solid transparent;
+    background-clip: content-box;
+}
+
+.nav-dock.is-expanded .nav-expand-panel-inner::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.3);
+    background-clip: content-box;
+}
+
 .nav-dock.is-collapsing .nav-expand-panel-inner {
     opacity: 0;
     border-color: transparent;

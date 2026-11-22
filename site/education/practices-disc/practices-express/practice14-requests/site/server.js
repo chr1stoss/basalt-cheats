@@ -52,6 +52,33 @@ app.post('/api/echo', (req, res) => {
     });
 });
 
+app.put('/api/echo', (req, res) => {
+    res.json({
+        method: 'PUT',
+        requestTime: req.requestTime,
+        body: req.body,
+        query: req.query,
+    });
+});
+
+app.delete('/api/echo', (req, res) => {
+    res.json({
+        method: 'DELETE',
+        requestTime: req.requestTime,
+        body: req.body,
+        query: req.query,
+    });
+});
+
+app.patch('/api/echo', (req, res) => {
+    res.json({
+        method: 'PATCH',
+        requestTime: req.requestTime,
+        body: req.body,
+        query: req.query,
+    });
+});
+
 app.get('/greet/:name', (req, res) => {
     res.send(`Hello, ${req.params.name}! (route param demo)`);
 });

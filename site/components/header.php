@@ -153,10 +153,6 @@ $bodyClass = trim((string) ($bodyClass ?? ''));
                                     <a href="<?= h(asset('education/practices-disc/practices-express/practice15-auth/practice-connector.php')) ?>"><?= h(__('nav.practice15_auth')) ?></a>
                                     <a href="<?= h(asset('education/practices-disc/practices-express/practice16-rbac/practice-connector.php')) ?>"><?= h(__('nav.practice16_rbac')) ?></a>
                                     <a href="<?= h(asset('education/practices-disc/practices-express/practice18-gateways/practice-connector.php')) ?>"><?= h(__('nav.practice18_gateways')) ?></a>
-				    <a href="<?= h(asset('education/practices-disc/practices-express/practice19-checkouts/practice-connector.php')) ?>"><?= h(__('nav.practice19_checkouts')) ?></a>
-				    <a href="<?= h(asset('education/practices-disc/practices-express/practice20-random/practice-connector.php')) ?>"><?= h(__('nav.practice20_random')) ?></a>
-				    <a href="<?= h(asset('education/practices-disc/practices-express/practice21-news/practice-connector.php')) ?>"><?= h(__('nav.practice21_news')) ?></a>
-				    <a href="<?= h(asset('education/practices-disc/practices-express/practice22-user-profile/practice-connector.php')) ?>"><?= h(__('nav.practice22_user_profile')) ?></a>
                                 </div>
                             </div>
                             <div class="nav-group">
@@ -165,6 +161,18 @@ $bodyClass = trim((string) ($bodyClass ?? ''));
                                 </div>
                                 <div class="drawer-grid nav-secondary-links">
                                     <a href="<?= h(asset('education/practices-disc/practices-none-sort/practice17-portfolio/practice-connector.php')) ?>"><?= h(__('nav.practice17_portfolio')) ?></a>
+                                </div>
+                            </div>
+                            <div class="nav-group">
+                                <div class="nav-group-header">
+                                    <span class="nav-group-title"><?= h(__('nav.group_javascript')) ?></span>
+                                </div>
+                                <div class="drawer-grid nav-secondary-links">
+			      	    <a href="<?= h(asset('education/practices-disc/practices-javascript/practice19-checkouts/practice-connector.php')) ?>"><?= h(__('nav.practice19_checkouts')) ?></a>
+				    <a href="<?= h(asset('education/practices-disc/practices-javascript/practice20-random/practice-connector.php')) ?>"><?= h(__('nav.practice20_random')) ?></a>
+				    <a href="<?= h(asset('education/practices-disc/practices-javascript/practice21-news/practice-connector.php')) ?>"><?= h(__('nav.practice21_news')) ?></a>
+				    <a href="<?= h(asset('education/practices-disc/practices-javascript/practice22-user-profile/practice-connector.php')) ?>"><?= h(__('nav.practice22_user_profile')) ?></a>
+				    <a href="<?= h(asset('education/practices-disc/practices-javascript/practice23-local-storage/practice-connector.php')) ?>"><?= h(__('nav.practice23_local_storage')) ?></a>
                                 </div>
                             </div>
                             <div class="nav-group">
@@ -190,6 +198,14 @@ $bodyClass = trim((string) ($bodyClass ?? ''));
                                     <a href="<?= h(asset('education/practices-interfaces/practices-layout/practice8-landing-positivus/practice-connector.php')) ?>"><?= h(__('nav.practice8_landing_positivus')) ?></a>
                                     <a href="<?= h(asset('education/practices-interfaces/practices-layout/practice9-catalog/practice-connector.php')) ?>"><?= h(__('nav.practice9_catalog')) ?></a>
                                     <a href="<?= h(asset('education/practices-interfaces/practices-layout/practice10-native-shop/practice-connector.php')) ?>"><?= h(__('nav.practice10_native_shop')) ?></a>
+                                </div>
+                            </div>
+                            <div class="nav-group">
+                                <div class="nav-group-header">
+                                    <span class="nav-group-title"><?= h(__('nav.group_node')) ?></span>
+                                </div>
+                                <div class="drawer-grid nav-secondary-links">
+                                    <a href="<?= h(asset('education\practices-interfaces\practices-node\practice11-vue3-counter/practice-connector.php')) ?>"><?= h(__('nav.practice11_vue3_counter')) ?></a>
                                 </div>
                             </div>
                         </div>

@@ -1,0 +1,39 @@
+a.button { 
+	display: inline-block;
+	width: 200px; 
+	text-decoration: none; 
+	border: 2px solid black; 
+	border-radius: 30px; 
+	color: black; 
+	text-align: center; 
+	padding: 20px; 
+	margin-top: 2%; 
+	font-size: 18px; 
+	background-color: transparent;
+	cursor: pointer;
+}
+
+a.button:hover { 
+	background-color: lightgray; 
+}
+
+.container {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.profile-info {
+	text-align: left;
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.profile-info img {
+	max-width: 200px;
+	margin-bottom: 20px;
+}
+
+.profile-info p {
+	font-size: 18px;
+	line-height: 1.5;
+}

@@ -32,32 +32,34 @@
 
 - Ранние практики `site/`, `site/components/`, `site/config/`, `site/database/` и др
 
-|Discipline|Practice number|Path|
-|---|---|---|
-|DISC (legacy)|ПР-8|`site/education/practices-disc-legacy/practice8-iframe/`site/*`
-|DISC (legacy)|ПР-10|`site/education/practices-disc-legacy/practice10-sweetty/site/*`
-|DISC (legacy)|ПР-11|`site/education/practices-disc-legacy/practice11-victory/site/*`
-|DISC (legacy)|ПР-12|`site/education/practices-disc-legacy/practice12-async/site/*`
-|DISC (legacy)|ПР-13|`site/education/practices-disc-legacy/practice13-music/site/*`
-|DISC|ПР-14|`site/education/practices-disc/practices-express/practice14-requests/site/*`
-|DISC|ПР-15|`site/education/practices-disc/practices-express/practice15-auth/site/*`
-|DISC|ПР-16|`site/education/practices-disc/practices-express/practice16-rbac/site/*`
-|DISC|ПР-17|`site/education/practices-disc/practices-none-sort/practice17-portfolio/site/*`
-|DISC|ПР-18|`site/education/practices-disc/practices-express/practice18-gateways/site/*`
-|DISC|ПР-19|`site/education/practices-disc/practices-express/practice19-checkouts/site/*`
-|DISC|ПР-20|`site/education/practices-disc/practices-express/practice20-random/site/*`
-|DISC|ПР-21|`site/education/practices-disc/practices-express/practice21-news/site/*`
-|DISC|ПР-22|`site/education/practices-disc/practices-express/practice22-user-profile/site/*`
-|INTERFACES (WP)|WP-1|`site/education/practices-interfaces/practices-wordpress/practice-wp1.php`
-|INTERFACES (WP)|WP-2|`site/education/practices-interfaces/practices-wordpress/practice-wp2.php`
-|INTERFACES (WP)|WP-3|`site/education/practices-interfaces/practices-wordpress/practice-wp3.php`
-|INTERFACES (WP)|WP-4|`site/education/practices-interfaces/practices-wordpress/practice-wp4.php`
-|INTERFACES (WP)|WP-5|`site/education/practices-interfaces/practices-wordpress/practice-wp5.php`
-|INTERFACES (layout)|ПР-6|`site/education/practices-interfaces/practices-layout/practice6-landing/site/*`
-|INTERFACES (layout)|ПР-7|`site/education/practices-interfaces/practices-layout/practice7-landing-layout/site/*`
-|INTERFACES (layout)|ПР-8|`site/education/practices-interfaces/practices-layout/practice8-landing-positivus/site/*`
-|INTERFACES (layout)|ПР-9|`site/education/practices-interfaces/practices-layout/practice9-catalog/site/*`
-|INTERFACES (layout)|ПР-10|`site/education/practices-interfaces/practices-layout/practice10-native-shop/site/*`
+|Discipline|Practice number|Short name|Path|
+|---|---|---|---|
+|DISC (legacy)|ПР-8|iframe|`site/education/practices-disc-legacy/practice8-iframe/`site/*`|
+|DISC (legacy)|ПР-10|sweetty|`site/education/practices-disc-legacy/practice10-sweetty/site/*`|
+|DISC (legacy)|ПР-11|victory day|`site/education/practices-disc-legacy/practice11-victory/site/*`|
+|DISC (legacy)|ПР-12|async|`site/education/practices-disc-legacy/practice12-async/site/*`|
+|DISC (legacy)|ПР-13|music|`site/education/practices-disc-legacy/practice13-music/site/*`|
+|DISC|ПР-14|requests (GET, POST, PUT, DELETE, PATCH)|`site/education/practices-disc/practices-express/practice14-requests/site/*`|
+|DISC|ПР-15|auth|`site/education/practices-disc/practices-express/practice15-auth/site/*`|
+|DISC|ПР-16|rbac|`site/education/practices-disc/practices-express/practice16-rbac/site/*`|
+|DISC|ПР-17|portfolio|`site/education/practices-disc/practices-none-sort/practice17-portfolio/site/*`|
+|DISC|ПР-18|dom-gateways|`site/education/practices-disc/practices-javascript/practice18-gateways/site/*`|
+|DISC|ПР-19|checkouts|`site/education/practices-disc/practices-javascript/practice19-checkouts/site/*`|
+|DISC|ПР-20|random|`site/education/practices-disc/practices-javascript/practice20-random/site/*`|
+|DISC|ПР-21|news|`site/education/practices-disc/practices-javascript/practice21-news/site/*`|
+|DISC|ПР-22|user profile|`site/education/practices-disc/practices-javascript/practice22-user-profile/site/*`|
+|DISC|ПР-23|user localStorage|`site/education/practices-disc/practices-javascript/practice23-local-storage/site/*`|
+|INTERFACES (WP)|WP-1|beginning|`site/education/practices-interfaces/practices-wordpress/practice-wp1.php`|
+|INTERFACES (WP)|WP-2|landing|`site/education/practices-interfaces/practices-wordpress/practice-wp2.php`|
+|INTERFACES (WP)|WP-3|woocommerce|`site/education/practices-interfaces/practices-wordpress/practice-wp3.php`|
+|INTERFACES (WP)|WP-4|checkout|`site/education/practices-interfaces/practices-wordpress/practice-wp4.php`|
+|INTERFACES (WP)|WP-5|bbpress|`site/education/practices-interfaces/practices-wordpress/practice-wp5.php`|
+|INTERFACES (layout)|ПР-6|landing|`site/education/practices-interfaces/practices-layout/practice6-landing/site/*`|
+|INTERFACES (layout)|ПР-7|landing layout|`site/education/practices-interfaces/practices-layout/practice7-landing-layout/site/*`|
+|INTERFACES (layout)|ПР-8|positivus landing|`site/education/practices-interfaces/practices-layout/practice8-landing-positivus/site/*`|
+|INTERFACES (layout)|ПР-9|catalog|`site/education/practices-interfaces/practices-layout/practice9-catalog/site/*`|
+|INTERFACES (layout)|ПР-10|native shop|`site/education/practices-interfaces/practices-layout/practice10-native-shop/site/*`|
+|INTERFACES (layout)|ПР-11|node.js vue3 counter|`site/education/practices-interfaces/practices-node/practice11-vue3-counter/site/*`|
 
 ```text
 Со средой Basalt Cheats решения практик совместимы благодаря файлам-коннекторам:
@@ -170,7 +172,7 @@ make lint
 ## Project layout
 
 ```
-basalt-cheats/edu/
+basalt-cheats/
 ├── site/
 │   ├── assets/
 │   ├── components/
@@ -184,12 +186,14 @@ basalt-cheats/edu/
 │       │   │   ├── practice15-auth/
 │       │   │   ├── practice16-rbac/
 │       │   │   ├── practice18-gateways/
-│       │   │   ├── practice19-checkouts/
-│       │   │   ├── practice20-random/
-│       │   │   ├── practice21-news/
-│       │   │   └── practice21-user-profile/
-│       │   └── practices-none-sort/                    # Портфолио
-│       │       └── practice18-portfolio/
+│       │   ├── practices-none-sort/                    # Портфолио
+│       │   │   └── practice18-portfolio/
+│       │   └── practices-javacript/
+│       │       ├── practice19-checkouts/
+│       │       ├── practice20-random/
+│       │       ├── practice21-news/
+│       │       ├── practice21-user-profile/
+│       │       └── practice22-local-storage/
 │       ├── practices-disc-legacy/                      # РКИС (2 курс)
 │       │   ├── practice8-iframe/
 │       │   ├── practice10-sweetty/
@@ -209,7 +213,9 @@ basalt-cheats/edu/
 │           │   ├── practice8-landing-positivus/        
 │           │   ├── practice9-catalog/        
 │           │   └── practice10-native-shop/        
-│           └── practices-wordpress/                    # Wordpress 1-5
+│           ├── practices-wordpress/                    # Wordpress 1-5
+│           └── practices-node/				# Node.js Vue3
+│               └── practice11-vue3-counter/
 ├── wp_lab/
 │   └── wp-content/
 │       └── themes/

@@ -29,11 +29,13 @@ return [
 
     // grops
     'nav.group_additional' => 'Additional',
-    'nav.group_legacy' => 'Legacy',
-    'nav.group_express' => 'Node.js Express',
-    'nav.group_portfolio' => 'Portfolio',
-    'nav.group_wordpress' => 'Wordpress',
-    'nav.group_layouts' => 'Laying out',
+    'nav.group_legacy' => 'DISC | Legacy',
+    'nav.group_express' => 'DISC | Node.js Express',
+    'nav.group_portfolio' => 'DISC | Portfolio',
+    'nav.group_javascript' => 'DISC | JavaScript',
+    'nav.group_wordpress' => 'INTERFACES | Wordpress',
+    'nav.group_layouts' => 'INTERFACES | Laying out',
+    'nav.group_node' => 'INTERFACES | Node.js Vue3',
 
     // legacy
     'nav.practice8_iframe' => 'PR8 iframe',
@@ -56,7 +58,8 @@ return [
     'nav.practice19_checkouts' => 'PR19 Checkouts',
     'nav.practice20_random' => 'PR20 Random',
     'nav.practice21_news' => 'PR21 News',
-    'nav.practice22_user_profle' => 'PR22 User Profile',
+    'nav.practice22_user_profile' => 'PR22 User Profile',
+    'nav.practice23_local_storage' => 'PR23 localStorage',
 
     'practice16_rbac.lead' => 'Node.js + Express: admin/user roles, requireAdmin middleware, admin panel, safe deletion.',
     'practice17_portfolio.lead' => 'Portfolio about yourself creating using stack PHP/CSS/JS',
@@ -113,6 +116,7 @@ return [
     'nav.practice8_landing_positivus' => 'PR8 Landing Positivus',
     'nav.practice9_catalog' => 'PR9 Catalog',
     'nav.practice10_native_shop' => 'PR10 Native Shop',
+    'nav.practice11_vue3_counter' => 'ПР11 Vue3 Counter',
 
     'lang.ru' => 'RU',
     'lang.en' => 'EN',
