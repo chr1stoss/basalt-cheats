@@ -204,7 +204,7 @@ basalt-cheats/
 │       │   │   └── part-2/                             # День победы (города-герои)
 │       │   ├── practice12-async/
 │       │   └── practice13-music/
-│       └── practices-interfaces/                       # ПиРИС (3 курс)
+│       └── practices-interfaces/                       # ПиРИП (3 курс)
 │           ├── practices-layout/
 │           │   ├── practice6-landing/
 │           │   │   ├── part-1/                         # Верстка
