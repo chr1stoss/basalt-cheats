@@ -243,7 +243,7 @@ basalt-cheats/
 ## Documentation
 
 - [`IMAGES.md`](IMAGES.md) — пути к изображениям
-- `DEVELOPMENT.md`, `CHANGELOG.md`
+- [`DEVELOPMENT.md`](DEVELOPMENT.md), [`CHANGELOG.md`](CHANGELOG.md)
 
 ---
 
